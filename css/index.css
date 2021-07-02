@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+.container{
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.header h1{
+  color: brown;
+  font-family: New Century Schoolbook, serif;
+  font-weight: bold;
+}
+#users{
+    width: 50%;
+    margin-top: 20px;
+}
+.user-card{
+    border: black;
+    padding: 0.1rem 5rem;
+    margin: 2px;
+    background-color: white;
+    border-radius: 22px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.user-card h3 {
+    color: brown;
+}
+.btn-section{
+    align-items: center;
+    padding-top: 20px;
+}
+button{
+    padding: 12px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: aquamarine;
+}

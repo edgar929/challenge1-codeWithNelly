@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+.container{
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+#posts{
+    background-color: white;
+    width: 50%;
+}
+.single-post{
+    padding: 2px 20px;
+}
+h2{
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+p{
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.header h1{
+    color: brown;
+    font-family: New Century Schoolbook, serif;
+    font-weight: bold;
+  }
